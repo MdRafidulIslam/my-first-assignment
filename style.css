@@ -3,8 +3,14 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 800;
+  color: gray;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: gray;
 }
 .half-width {
   display: flex;
@@ -12,14 +18,14 @@ h1 {
 }
 .top-banner {
   width: 40%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 15%;
+  margin-right: 10%;
 }
 .orange {
   color: orange;
 }
 
-#button {
+.button {
   text-decoration: none;
   background-image: linear-gradient(orange, tomato);
   padding: 15px 40px;
@@ -30,7 +36,19 @@ h1 {
 
 #about-me {
   width: 100%;
-  background-image: url(images/Male2.png);
+  background-image: url("images/male2.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.middle-banner {
+  width: 40%;
+  margin-left: 45%;
+  margin-right: 15%;
+  padding: 20px 30px;
+  text-align: justify;
+}
+
+.change {
+  margin-right: 20%;
 }
