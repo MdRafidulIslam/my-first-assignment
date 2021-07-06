@@ -8,9 +8,29 @@ h1 {
 }
 .half-width {
   display: flex;
+  margin-bottom: 10%;
 }
 .top-banner {
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
+}
+.orange {
+  color: orange;
+}
+
+#button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 15px 40px;
+  font-weight: 700;
+  border-radius: 50px;
+  color: white;
+}
+
+#about-me {
+  width: 100%;
+  background-image: url(images/Male2.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
